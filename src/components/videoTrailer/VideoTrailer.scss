@@ -26,6 +26,7 @@
             font-family: $italiana;
             font-size: 1.6rem;
             font-weight: 700;
+            color: $accent-colors;
 
             @include tablet {
                 font-size: 2rem;
@@ -35,7 +36,7 @@
         p {
             font-size: 1rem;
             font-weight: 500;
-            color: #000000c1;
+            color: #eaeaea;
         }
     }
 

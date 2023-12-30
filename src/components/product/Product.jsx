@@ -8,7 +8,7 @@ import { productImage } from "../../libs/images";
 
 const Product = () => {
   return (
-    <Container paddingTop={"2rem"} paddingBottom={"2rem"}>
+    <Container paddingTop={"2rem"} paddingBottom={"4rem"}>
       <div className="product-header">
         <h1>Product</h1>
         <p>Our Product</p>
