@@ -1,0 +1,27 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
+
+.image-slider-container {
+    padding: 1rem 0;
+}
+
+.items-slider {
+    max-width: 290px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .6);
+    margin: 0 1rem;
+    border-radius: 12px;
+    overflow: hidden;
+
+    @include tablet {
+        height: 250px;
+    }
+}
+
+.images-slider {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}

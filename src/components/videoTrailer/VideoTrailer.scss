@@ -1,0 +1,49 @@
+@import "../../styles/mixins.scss";
+@import "../../styles/variables.scss";
+
+.video-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    @include tablet {
+        align-items: flex-start;
+    }
+
+    .trailer-video-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 2rem 0;
+
+        @include tablet {
+            align-items: flex-start;
+        }
+
+        h1 {
+            font-family: $italiana;
+            font-size: 1.6rem;
+            font-weight: 700;
+
+            @include tablet {
+                font-size: 2rem;
+            }
+        }
+
+        p {
+            font-size: 1rem;
+            font-weight: 500;
+            color: #000000c1;
+        }
+    }
+
+
+    .videos {
+        max-width: 640px;
+        width: 100%;
+        border-radius: 8px;
+        box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+    }
+}

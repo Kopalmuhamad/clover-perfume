@@ -1,0 +1,47 @@
+@import "../../styles/mixins.scss";
+@import "../../styles/variables.scss";
+
+.product-header {
+    width: 100%;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    @include tablet {
+        align-items: flex-start;
+        text-align: start;
+    }
+
+    h1 {
+        font-family: $italiana;
+        font-size: 1.6rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+
+        @include tablet {
+            font-size: 2rem;
+        }
+    }
+
+    p {
+        font-size: 1rem;
+        font-weight: 500;
+        color: #000000bf;
+    }
+}
+
+.card-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+
+    @include tablet {
+        justify-content: space-between;
+    }
+}
