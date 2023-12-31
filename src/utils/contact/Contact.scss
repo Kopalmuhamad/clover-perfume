@@ -1,0 +1,59 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
+
+.contact-container {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+
+    .contact-header {
+        h1 {
+            font-family: $italiana;
+            font-weight: 700;
+            letter-spacing: 2px;
+            font-size: 1.6rem;
+            color: $accent-colors;
+
+            @include tablet {
+                font-size: 2rem;
+            }
+        }
+
+        p {
+            font-size: 1rem;
+            font-weight: 500;
+            color: $white-colors;
+        }
+    }
+
+    .input-container {
+        width: 100%;
+        position: relative;
+
+        input {
+            width: 100%;
+            padding: 1rem;
+            border-radius: 12px;
+            color: $black-colors;
+            font-weight: 500;
+            outline: none;
+        }
+    }
+
+    .send-button {
+        padding: .8rem 2rem;
+        border-radius: 12px;
+        border: none;
+        outline: none;
+        background-color: $third-colors;
+        font-weight: 500;
+        transition: 150ms all ease;
+
+        &:is(:hover, :active) {
+            background-color: $accent-colors;
+        }
+    }
+}

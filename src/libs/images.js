@@ -29,25 +29,25 @@ export const productImage = [
   {
     id: 1,
     name: "Luck",
-    price: "Rp.0",
+    price: "Rp. 50.000",
     src: require("../assets/images/product/luck(23).JPG"),
   },
   {
     id: 2,
     name: "Love",
-    price: "Rp.0",
+    price: "Rp. 50.000",
     src: require("../assets/images/product/love(13).JPG"),
   },
   {
     id: 3,
     name: "Hope",
-    price: "Rp.0",
+    price: "Rp. 50.000",
     src: require("../assets/images/product/hope(14).JPG"),
   },
   {
     id: 4,
     name: "Faith",
-    price: "Rp.0",
+    price: "Rp. 50.000",
     src: require("../assets/images/product/faith(24).JPG"),
   },
 ];

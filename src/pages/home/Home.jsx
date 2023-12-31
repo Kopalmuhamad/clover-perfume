@@ -8,6 +8,7 @@ import Product from "../../components/product/Product";
 import Hero from "../../components/hero/Hero";
 import VideoTrailer from "../../components/videoTrailer/VideoTrailer";
 import BestSeller from "../../components/bestSeller/BestSeller";
+import Contact from "../../utils/contact/Contact";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <BestSeller />
       <VideoTrailer />
       <Product />
+      <Contact />
     </ContainerFluid>
   );
 };
